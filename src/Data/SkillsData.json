@@ -1,0 +1,37 @@
+[
+    {
+        "skills" : "ReactJs",
+        "percentage" : "50%",
+        "id" : "react-bar"
+    },
+    {
+        "skills" : "Javascript",
+        "percentage" : "50%",
+        "id" : "js-bar"
+    },
+    {
+        "skills" : "Css",
+        "percentage" : "90%",
+        "id" : "css-bar"
+    },
+    {
+        "skills" : "Bootstrap",
+        "percentage" : "90%",
+        "id" : "bootstrap-bar"
+    },
+    {
+        "skills" : "Sass",
+        "percentage" : "70%",
+        "id" : "sass-bar"
+    },
+    {
+        "skills" : "Html",
+        "percentage" : "90%",
+        "id" : "html-bar"
+    },
+    {
+        "skills" : "Photoshop",
+        "percentage" : "80%",
+        "id" : "photoshop-bar"
+    }
+]

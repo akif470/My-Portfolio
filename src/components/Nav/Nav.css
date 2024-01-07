@@ -1,0 +1,115 @@
+.nav-container {
+	height: 60px;
+	display: flex;
+	align-items: center;
+	padding: 0 !important;
+	justify-content: space-between;
+}
+
+.nav-container nav {
+	position: fixed;
+	top: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 1;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	gap: 1.5rem;
+	align-items: center;
+	background: linear-gradient(to bottom, var(--white-color), var(--primary-color));
+	transition: all .45s ease-in-out;
+}
+
+.nav-container .nav-brand {
+	font-family: Ms Madi;
+	letter-spacing: 1.55px;
+	font-weight: bold;
+	z-index: 2;
+	font-size: 26px;
+	cursor: pointer;
+	text-decoration: none;
+	background: linear-gradient(90deg, #e8897a, #fff600, #ff00f3, #0033ff, #ff00c4, #e8897a);
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+	background-size: 400%;
+	animation: flowing 13s linear infinite;
+}
+
+.nav-container .nav-brand.large {
+	font-size: 3rem;
+}
+/* ======================================== */
+/* ======================================== */
+/* ======================================== */
+/* .nav-container .nav-notactive {
+	transform: translateY(-106vh);
+}
+
+.nav-container .hamburger {
+	z-index: 3;
+} */
+
+.nav-container .nav-links {
+	font-size: 34px;
+	font-weight: 300;
+	color: var(--white-color);
+	padding: 1rem 2rem;
+	text-decoration: none;
+	text-transform: uppercase;
+	background-image: linear-gradient(120deg, transparent 0%, transparent 50%, var(--primary-color) 50%, var(--white-color) 130%);
+	background-size: 240%;
+	transition: all .4s;
+	/* margin-right: 1rem !important; */
+	display: inline-block;
+}
+
+.nav-container .nav-links:hover,
+.nav-container .nav-links:active {
+	background-position: 100%;
+	transform: translateX(1rem);
+}
+
+.nav-container .nav-links:not(:last-child) {
+	margin-left: 0rem;
+}
+
+.nav-container .nav-btn {
+	cursor: pointer;
+	background: transparent;
+	border: none;
+	outline: none;
+	color: var(--primary-color);
+	font-size: 1.85rem;
+	display: initial;
+}
+
+@media(max-width: 480px) {
+	.nav-container .nav-links {
+		font-size: 29px;
+	}
+}
+
+@media(max-width: 768px) {
+	.nav-container {
+		padding: 0 .75rem 0 1rem !important;
+	}
+
+	.nav-container .nav-brand {
+		animation: flowing 18s linear infinite;
+	}
+	.nav-container .social-icon:not(:last-child) {
+		margin-right: 8px;
+	}
+}
+
+@media (min-width: 769px) and (max-width: 992px) {}
+
+@media (min-width: 993px) and (max-width: 1200px) {}
+
+@media (min-width: 1201px) and (max-width: 1680px) {
+	.nav-container nav {
+		/* top: 5.6%; */
+	}
+}
