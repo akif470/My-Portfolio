@@ -1,7 +1,7 @@
 import React from 'react';
 import graphImg from '../../assets/graph1.svg';
 import './Skills.css';
-import Resume from '../../assets/resumeNov2023.pdf';
+// import Resume from '../../assets/resumeNov2023.pdf';
 import SkillsData from '../../Data/SkillsData.json';
 
 const Skills = () => {
@@ -15,7 +15,12 @@ const Skills = () => {
           <h2 className='skills-h2 heading'>
             {/*my forever skills*/}my skills
           </h2>
-          <p className='skills-para'>Front End web Development</p>
+          <p className='skills-para'>
+            Front End web Development
+            <p className='skills-para_child'>
+              i am still at the stage of learning
+            </p>
+          </p>
           {SkillsData.map((item) => (
             <div className='skills-box'>
               <div className='details'>
@@ -28,7 +33,10 @@ const Skills = () => {
             </div>
           ))}
           <div style={{ marginTop: '14px' }}>
-            <a href={Resume} download className='resume-btn'>
+            {/* <a href={Resume} download className='resume-btn'>
+              download resume
+            </a> */}
+            <a href={''} download className='resume-btn'>
               download resume
             </a>
           </div>

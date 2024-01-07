@@ -19,6 +19,14 @@
 	font-size: 18px;
 }
 
+.skills .skills-para_child {
+	font-size: 14px;
+}
+
+.skills .skills-para_child::first-letter {
+	text-transform: uppercase;
+}
+
 .skills .details {
 	width: 100%;
 	display: flex;
