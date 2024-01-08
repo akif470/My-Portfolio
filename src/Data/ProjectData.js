@@ -40,13 +40,13 @@ const ProjectData = [
     imgD: Project4,
     heading: 'Digital Solution UI',
     span: 'JAVASCRIPT, HTML, CSS, SASS',
-    url: 'https://restaurant30.netlify.app/',
+    url: 'https://akif470.github.io/Digital-Solution-UI/',
   },
   {
     imgD: Project6,
     heading: 'Dice Game',
     span: 'REACT.JS, CSS',
-    url: 'https://restaurant30.netlify.app/',
+    url: 'https://dicegame26.netlify.app/',
   },
 ];
 
