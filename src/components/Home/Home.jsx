@@ -1,7 +1,8 @@
 import React from 'react';
 import './Home.css';
-import hero from '../../assets/hero4.png';
-// import Resume from '../../assets/resumeNov2023.pdf';
+import hero from '../../assets/me4.png';
+import Resume from '../../assets/resume/resume3.pdf';
+import star from '../../assets/star.png';
 
 const Home = () => {
   return (
@@ -10,13 +11,15 @@ const Home = () => {
         <div className='row d-flex align-items-center'>
           <div className='col-lg-6 col-sm-6 col-md-6 home-col'>
             <h1 className='home-h1'>Hello World!</h1>
-            <h1 className='home-h1'> I'm Aakif Mansoori</h1>
+            <h1 className='home-h1'>
+              {' '}
+              I'm <span className='myName'>Aakif </span>{' '}
+              <img src={star} className='rooling_star' />
+              {/* <span className='surName'>Mansoori</span> */}
+            </h1>
             {/* <h1 className='home-h1 primary-text'>UX-UI developer</h1> */}
-            <h1 className='home-h1 primary-text'>Front-End Web Developer</h1>
-            {/* <a href={Resume} download className='resume-btn'>
-              download resume
-            </a> */}
-            <a href={''} download className='resume-btn'>
+            <h1 className='home-h1 primary-text'>Front End Web Developer</h1>
+            <a href={Resume} download className='resume-btn'>
               download resume
             </a>
           </div>

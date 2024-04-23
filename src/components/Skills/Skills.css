@@ -19,14 +19,6 @@
 	font-size: 18px;
 }
 
-.skills .skills-para_child {
-	font-size: 14px;
-}
-
-.skills .skills-para_child::first-letter {
-	text-transform: uppercase;
-}
-
 .skills .details {
 	width: 100%;
 	display: flex;
@@ -65,7 +57,7 @@
 	inset: 0;
 	border-radius: 10px;
 	background: linear-gradient(120deg, #fb0094, #0000ff, #00ff00,
-			#ffff00, #fb0094, #0000ff, #00ff00, #ffff00, #fb0094);
+	#ffff00, #fb0094, #0000ff, #00ff00, #ffff00, #fb0094);
 	animation: animate 30s linear infinite;
 	background-size: 500%;
 	filter: blur(5px);
@@ -175,7 +167,7 @@
 
 @keyframes react-fill {
 	100% {
-		width: 50%;
+		width: 70%;
 	}
 }
 
@@ -185,7 +177,7 @@
 
 @keyframes js-fill {
 	100% {
-		width: 50%;
+		width: 40%;
 	}
 }
 
@@ -215,7 +207,7 @@
 
 @keyframes bootstrap-fill {
 	100% {
-		width: 90%;
+		width: 80%;
 	}
 }
 
@@ -235,6 +227,6 @@
 
 @keyframes photoshop-fill {
 	100% {
-		width: 80%;
+		width: 90%;
 	}
 }

@@ -7,65 +7,126 @@
 	/* align-items: center; */
 	/* height: 100; */
 }
+
 .home .home-col:not(:last-child) {
 	/* transform: translateY(120px); */
 }
+
+
+.home .home-col {
+	margin-top: 20px;
+	/* padding: 0; */
+}
+
 .home .home-h1 {
 	font-weight: 700;
 	font-size: 48px;
 	line-height: 75px;
 	z-index: 100;
 }
+
 .home .home-img {
 	width: 100%;
-	/* -webkit-box-reflect: below 1px linear-gradient(transparent, #0005); */
-	/* box-shadow: 0 0 10px 1px rgba(0, 0, 0, 1); */
+	height: 360px;
+	border-radius: 4rem;
+	box-shadow: 0 0 10px 0px rgba(57, 118, 199, .8);
 }
+
+.rooling_star {
+	/* display: none; */
+	animation: rooling 1300ms cubic-bezier(.445, .05, .55, .95) infinite alternate;
+	/* position: absolute;
+	top: 120px;
+	right: 11%; */
+	width: 55px;
+	/* display: none; */
+	margin-top: -22px;
+	margin-left: 10px;
+}
+
 @media(max-width: 576px) {
 	.home .home-col:not(:last-child) {
-		transform: translateY(15px);
-		margin-bottom: 3rem;
+		/* transform: translateY(15px); */
+		margin-bottom: 2rem;
 	}
+
 	.home .home-h1 {
 		font-size: 38px;
 		line-height: 65px;
 	}
+
 	.home .home-img {
 		width: 100%;
 	}
+
+	.home .home-col {
+		margin-top: 0px;
+	}
+
+	.rooling_star {
+		/* display: inline; */
+	}
 }
+
 @media (min-width: 576px) and (max-width: 768px) {
 	.home .home-col:not(:last-child) {
-		transform: translateY(30px);
+		/* transform: translateY(30px); */
 	}
+
 	.home .home-h1 {
 		font-size: 28px;
 		line-height: 35px;
 	}
+
+	.rooling_star {
+		/* display: inline; */
+	}
 }
+
 @media (min-width: 769px) and (max-width: 992px) {
 	.home .home-col:not(:last-child) {
-		transform: translateY(45px);
+		/* transform: translateY(45px); */
 	}
+
 	.home .home-h1 {
 		font-size: 38px;
 		line-height: 51px;
 	}
 }
+
 @media (min-width: 993px) and (max-width: 1200px) {
 	.home .home-col:not(:last-child) {
-		transform: translateY(65px);
+		/* transform: translateY(65px); */
 	}
+
 	.home .home-h1 {
 		font-size: 42px;
 		/* line-height: 20px; */
 	}
 }
+
 @media (min-width: 1201px) and (max-width: 1440px) {
 	.home .home-col:not(:last-child) {
-		transform: translateY(55px);
+		/* transform: translateY(55px); */
 	}
+
 	.home .home-h1 {
 		/*font-size: 38px;*/
+	}
+}
+
+@media(max-width: 392px) {
+	.home .home-h1 .surName {
+		display: none;
+	}
+}
+
+@keyframes rooling {
+	from {
+		transform: rotate(-15deg);
+	}
+
+	to {
+		transform: rotate(375deg);
 	}
 }

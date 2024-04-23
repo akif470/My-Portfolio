@@ -1,18 +1,20 @@
 .hire {
     margin-top: 6rem !important;
-	/* border: 1px solid red; */
+    /* border: 1px solid red; */
 }
+
 .hire-box {
     /* border: 1px solid black; */
     box-shadow: 6px 6px 10px -8px rgba(57, 118, 199, .4);
     padding: 20px 40px 6px 50px;
     /* height: 120px; */
     /* padding: 0 0 0  50px; */
-    border-radius: 5rem;  
+    border-radius: 5rem;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 .hire-span {
     /* font-family: Poppins; */
     font-family: Ms Madi;
@@ -20,15 +22,18 @@
     font-size: 21px;
     font-weight: 900;
 }
+
 .hire-para {
     font-size: 18px;
     font-weight: 500;
     padding-top: .1rem;
     letter-spacing: -.5px;
 }
+
 .hire-col {
     text-align: right;
 }
+
 .hire-button {
     color: var(--lite-pink);
     font-size: 21px;
@@ -37,14 +42,16 @@
     border-radius: 2rem;
     padding: 10px 35px;
     background: linear-gradient(90deg, #e8897a, #fff600, #ff00f3, var(--primary-color), #ff00c4, #e8897a);
-	animation: animate 30s linear infinite;
-	background-size: 500%;
+    animation: animate 30s linear infinite;
+    background-size: 500%;
 }
+
 /* ////////////////////////////////////////////// */
 @media(max-width: 576px) {
     .hire {
         margin-top: 4rem !important;
     }
+
     .hire-box {
         /* border: 1px solid red; */
         box-shadow: 0 0 10px -5px rgba(57, 118, 199, .4);
@@ -52,23 +59,28 @@
         padding: 20px 5px 6px 5px;
         margin: 0 -5px;
     }
+
     .hire-h2 {
         font-size: 21px;
     }
+
     .hire-span {
         display: inline-block;
     }
+
     .hire-para {
         display: none;
     }
+
     .hire-col {
         text-align: right;
     }
+
     .hire-button {
         font-size: 16px;
         border-radius: 3px;
         padding: 4px 17.8px;
-    }   
+    }
 }
 
 @media (min-width: 576px) and (max-width: 768px) {
@@ -77,26 +89,38 @@
         box-shadow: 0 0 10px -5px rgba(57, 118, 199, .4);
         padding: 20px 5px 6px 10px;
     }
+
     .hire-span {
         display: inline-block;
     }
+
     .hire-para {
         display: none;
     }
+
     .hire-col {
         text-align: right;
     }
 }
 
-@media (min-width: 769px) and (max-width: 992px) { 
+@media (min-width: 769px) and (max-width: 992px) {
     .hire-box {
         padding: 20px 0 6px 30px;
     }
+
     .hire-para {
         font-size: 16px;
     }
 }
 
-@media (min-width: 993px) and (max-width: 1200px) { }
+@media (min-width: 993px) and (max-width: 1200px) {}
 
-@media (min-width: 1201px) and (max-width: 1440px) { }
+@media (max-width: 387px) {
+    .hire-button {
+        font-size: 16px;
+        /* border-radius: 10px; */
+        padding: 0;
+        height: 35px;
+        width: 75px;
+    }
+}

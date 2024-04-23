@@ -8,14 +8,14 @@ const SocialLinks = () => {
     <div className='social-icons' data-aos='fade-left'>
       <a
         className='social-icon'
-        href='https://github.com/akif470'
+        href='https://github.com/akif-debug'
         target='_blank'
       >
         <img className='social-img' src={github} />
       </a>
       <a
         className='social-icon'
-        href='https://www.linkedin.com/in/aakif-mansoori-9a128b2a8/'
+        href='https://www.linkedin.com/in/aakif-mansoori-091b5413a/'
         target='_blank'
       >
         <img className='social-img' src={linkedin} />

@@ -40,6 +40,7 @@
 .nav-container .nav-brand.large {
 	font-size: 3rem;
 }
+
 /* ======================================== */
 /* ======================================== */
 /* ======================================== */
@@ -61,7 +62,6 @@
 	background-image: linear-gradient(120deg, transparent 0%, transparent 50%, var(--primary-color) 50%, var(--white-color) 130%);
 	background-size: 240%;
 	transition: all .4s;
-	/* margin-right: 1rem !important; */
 	display: inline-block;
 }
 
@@ -99,6 +99,7 @@
 	.nav-container .nav-brand {
 		animation: flowing 18s linear infinite;
 	}
+
 	.nav-container .social-icon:not(:last-child) {
 		margin-right: 8px;
 	}

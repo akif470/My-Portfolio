@@ -1,12 +1,12 @@
 [
     {
         "skills" : "ReactJs",
-        "percentage" : "50%",
+        "percentage" : "70%",
         "id" : "react-bar"
     },
     {
         "skills" : "Javascript",
-        "percentage" : "50%",
+        "percentage" : "40%",
         "id" : "js-bar"
     },
     {
@@ -16,7 +16,7 @@
     },
     {
         "skills" : "Bootstrap",
-        "percentage" : "90%",
+        "percentage" : "80%",
         "id" : "bootstrap-bar"
     },
     {
@@ -31,7 +31,7 @@
     },
     {
         "skills" : "Photoshop",
-        "percentage" : "80%",
+        "percentage" : "90%",
         "id" : "photoshop-bar"
     }
 ]

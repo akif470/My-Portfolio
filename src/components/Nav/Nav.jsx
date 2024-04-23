@@ -11,10 +11,6 @@ const Nav = () => {
   return (
     <div className='mYcontainer nav-container container'>
       <Link to='/' className='nav-brand' data-aos='fade-right'>
-        {/* <span className='nav-brand large'>1</span>
-				<span className='nav-brand'>3</span>
-				<span className='nav-brand large'>.5</span>
-				coder */}
         <span className='nav-brand large'>A</span>
         <span className='nav-brand'>a</span>
         <span className='nav-brand large'>kif.</span>
