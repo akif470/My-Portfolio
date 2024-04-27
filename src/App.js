@@ -11,6 +11,7 @@ import Project from './components/Project/Project';
 import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
 import GotoTop from './components/GotoTop';
+import AboutSkills from './components/AboutSkills/AboutSkills';
 
 function App() {
   return (
@@ -23,7 +24,8 @@ function App() {
         {/* Hire */}
         <Hire {...HireData} />
         {/*Skills*/}
-        <Skills />
+        {/* <Skills /> */}
+        <AboutSkills />
         {/*ProjectHead*/}
         <ProjectHead />
         {/*Project*/}

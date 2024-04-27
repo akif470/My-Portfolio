@@ -59,7 +59,7 @@
     }
 }
 
-@media(max-width: 395px) {
+@media(max-width: 490px) {
     .footer-dev {
         display: none;
     }

@@ -57,7 +57,7 @@
 	inset: 0;
 	border-radius: 10px;
 	background: linear-gradient(120deg, #fb0094, #0000ff, #00ff00,
-	#ffff00, #fb0094, #0000ff, #00ff00, #ffff00, #fb0094);
+			#ffff00, #fb0094, #0000ff, #00ff00, #ffff00, #fb0094);
 	animation: animate 30s linear infinite;
 	background-size: 500%;
 	filter: blur(5px);
@@ -230,3 +230,6 @@
 		width: 90%;
 	}
 }
+
+
+/* new css for skills */
