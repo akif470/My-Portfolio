@@ -1,6 +1,7 @@
 import React from 'react';
 import AboutSkillsData from '../../Data/AboutSkillsData';
 import AboutToolsData from '../../Data/AboutToolsData';
+import Resume from '../../assets/resume.pdf';
 import './AboutSkills.css';
 
 const AboutSkills = () => {
@@ -13,7 +14,11 @@ const AboutSkills = () => {
           </h2>
           <p
             className='pro-heading'
-            style={{ textAlign: 'justify', width: '95%', marginBottom: '0' }}
+            style={{
+              textAlign: 'justify',
+              width: '95%',
+              marginBottom: '1.2rem',
+            }}
           >
             As a front-end deveoloper, I am skilled in Javascript, React.Js,
             HTML, CSS, Bootstrap, Sass. I have a meticulous eye for design which
@@ -21,6 +26,9 @@ const AboutSkills = () => {
             up. My specialty involes utilizing my creativity and problem-solving
             skills to create unique and engaging user experiences.
           </p>
+          <a href={Resume} download className='resume-btn'>
+            download resume
+          </a>
         </div>
         <div className='col-lg-6 col-md-6'>
           <h2 className='skills-h2 heading'>
@@ -28,7 +36,7 @@ const AboutSkills = () => {
             {/* <span className='hire-span'>What I'm good at</span> */}
           </h2>
           <div className='row skills-container d-flex'>
-            <h4 className='resume-btn'>technical skills</h4>
+            <h4 className='pro-heading'>Technical skills</h4>
             {AboutSkillsData.map((item) => {
               return (
                 <div className={item.className}>
@@ -43,7 +51,7 @@ const AboutSkills = () => {
                 </div>
               );
             })}
-            <h4 className='resume-btn mt-3'>technical tools</h4>
+            <h4 className='pro-heading mt-4'>Technical tools</h4>
             {AboutToolsData.map((item) => {
               return (
                 <div className={item.className}>

@@ -1,7 +1,7 @@
 import React from 'react';
 import './Home.css';
 import hero from '../../assets/me4.png';
-import Resume from '../../assets/resume/resume3.pdf';
+import Resume from '../../assets/resume.pdf';
 import star from '../../assets/star.png';
 
 const Home = () => {

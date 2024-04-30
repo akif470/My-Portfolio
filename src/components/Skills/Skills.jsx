@@ -1,7 +1,7 @@
 import React from 'react';
 import graphImg from '../../assets/graph1.svg';
 import './Skills.css';
-import Resume from '../../assets/resume/resume3.pdf';
+import Resume from '../../assets/resume.pdf';
 import SkillsData from '../../Data/SkillsData.json';
 
 const Skills = () => {
